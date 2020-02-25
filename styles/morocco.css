@@ -48,7 +48,10 @@
 	height: 400px;
 	padding: 2rem auto;
 	border: 1px solid black;
-}
+	border-radius: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	  }
+
 
 .countryDetail__list{
 	margin-left: 2rem;
@@ -68,7 +71,7 @@
 .countryDetail__listItem {
 	font-family: 'Hind';
 	font-size: 15px;
-	padding: 1rem 0 1rem 0;
+	padding: 
     justify-content: center;
     font-weight: bold;
 }
