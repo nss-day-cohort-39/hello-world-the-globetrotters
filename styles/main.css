@@ -23,14 +23,6 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: burlywood;
 }
 
-.countryNav{
-	text-align: center;
-	font-size: 35px;
-	margin: 1rem 0 5rem 0;
-	font-family: 'Shadows Into Light';
-	 ;
-}
-
 .countryImage{
 	display: block;
 	margin-left: auto;
