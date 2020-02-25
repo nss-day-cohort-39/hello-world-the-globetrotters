@@ -43,7 +43,7 @@
 	background-color: whitesmoke;
 	margin-left: 2rem;
 	margin-right: 2rem;
-	justify-content: center;
+	justify-content: left;
 	width: 250px;
 	height: 400px;
 	padding: 2rem auto;
@@ -52,7 +52,8 @@
 
 .countryDetail__list{
 	margin-left: 2rem;
-	margin-right: 2rem;
+    margin-right: 2rem;
+    justify-content: center;
 }
 
 .countryDetail__listName{
@@ -68,7 +69,8 @@
 	font-family: 'Hind';
 	font-size: 15px;
 	padding: 1rem 0 1rem 0;
-
+    justify-content: center;
+    font-weight: bold;
 }
 
 .card {
