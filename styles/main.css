@@ -27,6 +27,25 @@ h2,h3,h4,h5,h6 {
 	background-color: rgb(255, 204, 109);
 }
 
+#backgroundSingapore {
+	background-color: rgba(255, 0, 149, 0.6);
+}
+
+#backgroundJapan {
+	background-color: rgba(223, 236, 40, 0.6);
+}
+
+#backgroundIceland {
+	background-color: rgba(0, 174, 255, 0.3);
+}
+
+#backgroundSwitzerland {
+	background-color: rgba(255, 1, 1, 0.7);
+}
+
+#backgroundMorocco {
+	background-color: rgba(218, 165, 32, 0.6);
+}
 .homeArticle__wrapper {
 	display: flex;
 	flex-flow: column nowrap;
