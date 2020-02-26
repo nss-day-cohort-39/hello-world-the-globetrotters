@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 @import url("https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap");
 @import url(/styles/navbar.css);
-
-
+@import url(/styles/detailList.css);
+@import url("https://fonts.googleapis.com/css?family=Merienda|Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Hind&display=swap");
 /*Typography --------------------------------------------------------------*/
 body,
 button,
@@ -21,7 +22,7 @@ h2,h3,h4,h5,h6 {
 }
 
 .body{
-	background-color: burlywood;
+	/* background-color: burlywood; */
 }
 
 .countryImage {
@@ -42,7 +43,7 @@ box-shadow:         -4px 6px 5px 0px rgba(50, 50, 50, 1);
 	font-size: 50px;
 	font-weight: bold;
 	margin-bottom: 2rem;
-}
+/* }
 .countryDetail {
 	display:flex;
 	flex-flow: row nowrap;
@@ -84,8 +85,9 @@ box-shadow:         -4px 6px 5px 0px rgba(50, 50, 50, 1);
 	font-family: 'Hind';
 	font-size: 15px;
 	padding: 1rem 0 1rem 0;
+	justify-content: left
 
-}
+} */
 
 .card {
 	display: flex;
