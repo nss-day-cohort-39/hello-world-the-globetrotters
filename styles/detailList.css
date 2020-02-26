@@ -10,22 +10,21 @@
 }
 
 .countryDetail__box{
-	/* display: flex;
-	flex-flow: row nowrap; */
+	display: flex;
+	flex-flow: row nowrap;
 	background-color: whitesmoke;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	/* justify-content: left; */
-	width: 300px;
+	justify-content: center;
+	width: auto;
 	height: auto;
 	padding: 2rem auto;
 	border: 2px solid black;
-	border-radius: 5%;
-	-webkit-box-shadow: 5px 6px 5px 0px rgba(50, 50, 50, 0.79);
-	-moz-box-shadow:    5px 6px 5px 0px rgba(50, 50, 50, 0.79);
-	box-shadow:         5px 6px 5px 0px rgba(50, 50, 50, 0.79); 
+	border-radius: 10px;
+	box-shadow:         4px 6px 5px 0px rgba(50, 50, 50, 1);
 	align-content: center;
-	  }
+	align-items: center;
+}
 
 	
 .countryDetail__list{
