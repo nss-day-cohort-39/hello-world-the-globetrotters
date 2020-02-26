@@ -4,6 +4,9 @@
 	max-height: 10em;
 	font-weight: bolder;
 	font-size: 1.5em;
+	background-color: cornsilk;
+	margin-left: 0;
+	margin-bottom: 1em;
 	
 }
 .navlogo {
@@ -31,3 +34,31 @@
 	margin-bottom: 1em;
 	justify-content: space-evenly;
 }
+a {
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0;
+  }
+  
+  a:link {
+	color: #265301;
+  }
+  
+  a:visited {
+	color: rgb(20, 2, 85);
+  }
+  
+  a:focus {
+	border-bottom: 1px solid;
+	background: rgb(231, 161, 95);
+  }
+  
+  a:hover {
+	border-bottom: 1px solid;     
+	background: rgb(231, 161, 95);
+  }
+  
+  a:active {
+	background: #265301;
+	color: rgb(231, 161, 95);
+  }
