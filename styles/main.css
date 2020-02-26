@@ -23,12 +23,16 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: burlywood;
 }
 
-.countryImage{
+.countryImage {
+	height: 633.89px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2rem;
 	width: 100%;
+	-webkit-box-shadow: -4px 6px 5px 0px rgba(50, 50, 50, 1);
+-moz-box-shadow:    -4px 6px 5px 0px rgba(50, 50, 50, 1);
+box-shadow:         -4px 6px 5px 0px rgba(50, 50, 50, 1);
 }
 
 .countryName {
@@ -96,11 +100,6 @@ h1,h2,h3,h4,h5,h6 {
   img {
 	border-radius: 5px 5px 0 0;
 	
-  }
-
-  .countryImage {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	height: 633.89px;
   }
 
   .countryDetail__box {
