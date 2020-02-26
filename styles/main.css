@@ -22,16 +22,20 @@ h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
-.body{
-	/* background-color: burlywood; */
+.body {
+	background-color: rgb(255, 204, 109);
 }
 
-#container {
-	background-image: url(https://giphy.com/embed/zP09g2o0vLNw4);
+.homeArticle__wrapper {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .homeArticle {
 	display: flex;
+	flex-flow: row nowrap;
 	align-items: center;
 	justify-content: center;
 	margin: auto;
