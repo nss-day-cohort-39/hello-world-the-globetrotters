@@ -1,0 +1,23 @@
+.personalInfo{
+    display: flex;
+    flex-flow: row no-wrap;
+    font-size: 35px ;
+    margin: 2rem 0 2rem 2rem;
+    padding: 3rem 3rem 0 3rem;
+    border: 1px solid black;
+    min-width: 20%;
+    word-spacing: 5px;
+    justify-content: space-between;
+    
+}
+
+.coderName {
+  
+}
+
+.coderCity {
+    
+}
+
+.coderWork {
+    
