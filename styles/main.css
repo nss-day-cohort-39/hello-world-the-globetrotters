@@ -25,6 +25,7 @@ h2,h3,h4,h5,h6 {
 	/* background-color: burlywood; */
 }
 
+
 .countryImage {
 	height: 633.89px;
 	display: block;
@@ -32,9 +33,9 @@ h2,h3,h4,h5,h6 {
 	margin-right: auto;
 	margin-bottom: 2rem;
 	width: 100%;
-	-webkit-box-shadow: -4px 6px 5px 0px rgba(50, 50, 50, 1);
--moz-box-shadow:    -4px 6px 5px 0px rgba(50, 50, 50, 1);
-box-shadow:         -4px 6px 5px 0px rgba(50, 50, 50, 1);
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 1);
+-moz-box-shadow:    0px 6px 5px 0px rgba(50, 50, 50, 1);
+box-shadow:         0px 6px 5px 0px rgba(50, 50, 50, 1);
 }
 
 .countryName {
