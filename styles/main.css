@@ -26,6 +26,25 @@ h2,h3,h4,h5,h6 {
 	/* background-color: burlywood; */
 }
 
+#backgroundSingapore {
+	background-color: rgba(255, 0, 149, 0.6);
+}
+
+#backgroundJapan {
+	background-color: rgba(223, 236, 40, 0.6);
+}
+
+#backgroundIceland {
+	background-color: rgba(0, 174, 255, 0.3);
+}
+
+#backgroundSwitzerland {
+	background-color: rgba(255, 1, 1, 0.7);
+}
+
+#backgroundMorocco {
+	background-color: rgba(218, 165, 32, 0.6);
+}
 
 .countryImage {
 	height: 633.89px;
@@ -35,8 +54,8 @@ h2,h3,h4,h5,h6 {
 	margin-bottom: 2rem;
 	width: 100%;
 	-webkit-box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 1);
--moz-box-shadow:    0px 6px 5px 0px rgba(50, 50, 50, 1);
-box-shadow:         0px 6px 5px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 6px 5px 0px rgba(50, 50, 50, 1);
+	box-shadow:         0px 6px 5px 0px rgba(50, 50, 50, 1);
 }
 
 .countryName {
@@ -45,6 +64,11 @@ box-shadow:         0px 6px 5px 0px rgba(50, 50, 50, 1);
 	font-size: 50px;
 	font-weight: bold;
 	margin-bottom: 2rem;
+
+
+
+
+
 /* }
 .countryDetail {
 	display:flex;
