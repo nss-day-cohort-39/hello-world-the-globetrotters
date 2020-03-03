@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
-@import url("https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap");
 @import url(/styles/navbar.css);
 @import url(/styles/detailList.css);
 @import url(/styles/footer.css);
@@ -13,13 +11,13 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
+	font-family: 'Merienda', Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 }
 
 h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
+  font-family: "Merienda", serif;
   letter-spacing: 2px;
 }
 
@@ -77,17 +75,7 @@ h2,h3,h4,h5,h6 {
 	font-size: 50px;
 	font-weight: bold;
 	margin-bottom: 2rem;
-
-.card {
-	display: flex;
-	flex-flow: row nowrap;
-	flex-direction: column;
-	flex-basis: 33.3%;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	transition: 0.3s;
-	border-radius: 5px; /* 5px rounded corners */
-  }
-
+}
 
   img {
 	border-radius: 5px 5px 0 0;

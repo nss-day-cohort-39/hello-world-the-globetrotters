@@ -1,63 +1,61 @@
 .countryNav {
-	display:flex;
-	flex-flow: row nowrap;
-	max-height: 10em;
-	font-weight: bolder;
-	font-size: 1.5em;
-	background-color: cornsilk;
-	margin-left: 0;
-	margin-bottom: 1em;
-	
+  display: flex;
+  flex-flow: row nowrap;
+  max-height: 10em;
+  font-weight: bolder;
+  font-size: 1.5em;
+  background-color: cornsilk;
+  margin-left: 0;
+  margin-bottom: 1em;
 }
 .navlogo {
-	min-width: 20%;
+  min-width: 20%;
 }
 .navrows {
-	display: flex;
-	flex-flow: column nowrap;
-	min-width: 80%
+  display: flex;
+  flex-flow: column nowrap;
+  min-width: 80%;
 }
 .navrow1 {
-	display: flex;
-	flex-flow: row nowrap;
-	padding-top: 1.5em ;
-	padding-bottom: 1.1em;
-	padding-left: 3em;
-	
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 1.5em;
+  padding-bottom: 1.1em;
+  padding-left: 3em;
 }
 .navitem1 {
-	width: 50%;
+  width: 50%;
 }
 .navrow2 {
-	display: flex;
-	flex-flow: row nowrap;
-	margin-bottom: 1em;
-	justify-content: space-evenly;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 1em;
+  justify-content: space-evenly;
 }
 a {
-	outline: none;
-	text-decoration: none;
-	padding: 2px 1px 0;
-  }
-  
-  a:link {
-	color: #265301;
-  }
-  
-  a:visited {
-	color: rgb(20, 2, 85);
-  }
-  
-  a:focus {
-	border-bottom: 1px solid;
-	background: rgb(231, 161, 95);
-  }
-  
-  a:hover {
-	border-bottom: 1px solid;     
-	background: rgb(231, 161, 95);
-  }
-  a:active {
-	background: #265301;
-	color: rgb(231, 161, 95);
-  }
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: rgb(20, 2, 85);
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: rgb(231, 161, 95);
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: rgb(231, 161, 95);
+}
+a:active {
+  background: #265301;
+  color: rgb(231, 161, 95);
+}
