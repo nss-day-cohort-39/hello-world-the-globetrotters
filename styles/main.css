@@ -10,96 +10,93 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: 'Merienda', Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+  color: #404040;
+  font-family: "Merienda", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-h2,h3,h4,h5,h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Merienda", serif;
   letter-spacing: 2px;
 }
 
 .body {
-	background-color: rgb(255, 204, 109);
+  background-color: rgb(255, 204, 109);
 }
 
 #backgroundSingapore {
-	background-color: rgba(255, 0, 149, 0.6);
+  background-color: rgba(255, 0, 149, 0.6);
 }
 
 #backgroundJapan {
-	background-color: rgba(223, 236, 40, 0.6);
+  background-color: rgba(223, 236, 40, 0.6);
 }
 
 #backgroundIceland {
-	background-color: rgba(0, 174, 255, 0.3);
+  background-color: rgba(0, 174, 255, 0.3);
 }
 
 #backgroundSwitzerland {
-	background-color: rgba(255, 1, 1, 0.7);
+  background-color: rgba(255, 1, 1, 0.7);
 }
 
 #backgroundMorocco {
-	background-color: rgba(218, 165, 32, 0.6);
+  background-color: rgba(218, 165, 32, 0.6);
 }
 .homeArticle__wrapper {
-	display: flex;
-	flex-flow: column nowrap;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .homeArticle {
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-	justify-content: center;
-	margin: auto;
-	width: 60%;
-	height: auto;
-	padding: 2em;
-	background-color: cornsilk;
-	box-shadow:         4px 6px 5px 0px rgba(50, 50, 50, .55);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  height: auto;
+  padding: 2em;
+  background-color: cornsilk;
+  box-shadow: 4px 6px 5px 0px rgba(50, 50, 50, 0.55);
 }
 
 .homeArticle h1 {
-	margin: 3em;
-	font-size: 3rem;
-	text-align: center;
+  margin: 3em;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .homeArticle p {
-	line-height: 2em;
-	font-size: 2em;
+  line-height: 2em;
+  font-size: 2em;
 }
 
-
 .countryImage {
-	height: 633.89px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 2rem;
-	width: 100%;
-	/* -webkit-box-shadow: -4px 6px 5px 0px rgba(50, 50, 50, 1);
-	-moz-box-shadow:    -4px 6px 5px 0px rgba(50, 50, 50, 1); */
-	box-shadow:         0px 6px 5px 0px rgba(50, 50, 50, .55);
+  height: 633.89px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 100%;
+  box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 0.55);
 }
 
 .countryName {
-	text-align: center;
-	font-family: 'Shadows Into Light';
-	font-size: 50px;
-	font-weight: bold;
-	margin-bottom: 2rem;
+  text-align: center;
+  font-family: "Shadows Into Light";
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }
 
-  img {
-	border-radius: 5px 5px 0 0;
-	
-  }
-
-  
- 
+img {
+  border-radius: 5px 5px 0 0;
+}
