@@ -1,38 +1,3 @@
-<<<<<<< HEAD
-.countryNav {
-  display: flex;
-  flex-flow: row nowrap;
-  max-height: 10em;
-  font-weight: bolder;
-  font-size: 1.5em;
-  background-color: cornsilk;
-  margin-left: 0;
-  margin-bottom: 1em;
-}
-.navlogo {
-  min-width: 20%;
-}
-.navrows {
-  display: flex;
-  flex-flow: column nowrap;
-  min-width: 80%;
-}
-.navrow1 {
-  display: flex;
-  flex-flow: row nowrap;
-  padding-top: 1.5em;
-  padding-bottom: 1.1em;
-  padding-left: 3em;
-}
-.navitem1 {
-  width: 50%;
-}
-.navrow2 {
-  display: flex;
-  flex-flow: row nowrap;
-  margin-bottom: 1em;
-  justify-content: space-evenly;
-=======
 .navBar {
 	display:flex;
 	flex-flow: row nowrap;
@@ -68,7 +33,6 @@
 	flex-flow: row nowrap;
 	margin-bottom: 1em;
 	justify-content: space-evenly;
->>>>>>> master
 }
 a {
   outline: none;
