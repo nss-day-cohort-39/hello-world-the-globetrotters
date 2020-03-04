@@ -29,23 +29,23 @@ h6 {
   background-color: rgb(255, 204, 109);
 }
 
-#backgroundSingapore {
+#background--Singapore {
   background-color: rgba(255, 0, 149, 0.6);
 }
 
-#backgroundJapan {
+#background--Japan {
   background-color: rgba(223, 236, 40, 0.6);
 }
 
-#backgroundIceland {
+#background--Iceland {
   background-color: rgba(0, 174, 255, 0.3);
 }
 
-#backgroundSwitzerland {
+#background--Switzerland {
   background-color: rgba(255, 1, 1, 0.7);
 }
 
-#backgroundMorocco {
+#background--Morocco {
   background-color: rgba(218, 165, 32, 0.6);
 }
 .homeArticle__wrapper {
