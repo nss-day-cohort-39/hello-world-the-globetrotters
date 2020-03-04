@@ -1,4 +1,4 @@
-.countryNav {
+.navBar {
 	display:flex;
 	flex-flow: row nowrap;
 	max-height: 10em;
@@ -9,15 +9,15 @@
 	margin-bottom: 1em;
 	
 }
-.navlogo {
+.navBar__logo {
 	min-width: 20%;
 }
-.navrows {
+.navBar__rows {
 	display: flex;
 	flex-flow: column nowrap;
 	min-width: 80%
 }
-.navrow1 {
+.navBar__row1 {
 	display: flex;
 	flex-flow: row nowrap;
 	padding-top: 1.5em ;
@@ -25,10 +25,10 @@
 	padding-left: 3em;
 	
 }
-.navitem1 {
+.navBar__rowItem1 {
 	width: 50%;
 }
-.navrow2 {
+.navBar__row2 {
 	display: flex;
 	flex-flow: row nowrap;
 	margin-bottom: 1em;
