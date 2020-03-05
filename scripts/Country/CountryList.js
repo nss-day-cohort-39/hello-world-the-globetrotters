@@ -1,16 +1,42 @@
 
-import { useJapan } from "./CountryDataProvider.js";
+import { useJapanCountry, useIcelandCountry, useMoroccoCountry, useSingaporeCountry, useSwitzerlandCountry } from "./CountryDataProvider.js";
 import Country from "./Country.js";
 
 
-const CountryList = () => {
+export const JapanCountryList = () => {
   const contentElement = document.querySelector(".country");
-  // const countries = useCountry();
-  const country = useJapan();
-  // for (const countryitem of country) {
-  //   contentElement.innerHTML += Country(countryitem);
-  // }
+  const country = useJapanCountry();
+ 
   contentElement.innerHTML += Country(country)
 };
 
-export default CountryList
+
+export const IcelandCountryList = () => {
+  const contentElement = document.querySelector(".country");
+  const country = useIcelandCountry();
+ 
+  contentElement.innerHTML += Country(country)
+};
+
+
+export const MoroccoCountryList = () => {
+  const contentElement = document.querySelector(".country");
+  const country = useMoroccoCountry();
+ 
+  contentElement.innerHTML += Country(country)
+};
+
+
+export const SingaporeCountryList = () => {
+  const contentElement = document.querySelector(".country");
+  const country = useSingaporeCountry();
+ 
+  contentElement.innerHTML += Country(country)
+};
+
+export const SwitzerlandCountryList = () => {
+  const contentElement = document.querySelector(".country");
+  const country = useSwitzerlandCountry();
+ 
+  contentElement.innerHTML += Country(country)
+};

@@ -16,17 +16,16 @@ const Country = (country) => {
     <article class="countryDetail__box" id="countryLandmarks">
         <ul class="countryDetail__list">
             <lh class="countryDetail__listName">Landmarks</lh>
-            <li class="countryDetail__listItem">Mount Fuji</li>
-            <li class="countryDetail__listItem">Shibuya Crossing</li>
-            <li class="countryDetail__listItem">Hiroshima Peace Park</li>       
+            <div class="countryDetail__listLandmarks">
+            </div>      
         </ul>
     </article>
 
     <article class="countryDetail__box" id="countryHOS">
         <ul class="countryDetail__list">
             <lh class="countryDetail__listName">Heads of State</lh>
-            <li class="countryDetail__listItem">Emperor Naruhito</li>
-            <li class="countryDetail__listItem">Prime Minister Shinzo Abe</li>       
+            <div class="countryDetail__listHOS">
+            </div>        
         </ul>
     </article>
     </section>
