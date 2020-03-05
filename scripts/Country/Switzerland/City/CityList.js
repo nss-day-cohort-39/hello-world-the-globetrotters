@@ -3,7 +3,7 @@ import { useJapanCity, useIcelandCity, useMoroccoCity, useSingaporeCity, useSwit
 
 //individual city list creator functions to send to each country's specific main.js file
 
-// 1.
+// 1. Japan
 export const JapanCityList = () => {
     const contentElement = document.querySelector(".countryDetail__listCities")
     const cities = useJapanCity()
@@ -13,7 +13,7 @@ export const JapanCityList = () => {
     });
 }
 
-// 2.
+// 2. Iceland
 export const IcelandCityList = () => {
     const contentElement = document.querySelector(".countryDetail__listCities")
     const cities = useIcelandCity()
@@ -23,7 +23,7 @@ export const IcelandCityList = () => {
     });
 }
 
-// 3.
+// 3. Morocco
 export const MoroccoCityList = () => {
     const contentElement = document.querySelector(".countryDetail__listCities")
     const cities = useMoroccoCity()
@@ -33,7 +33,7 @@ export const MoroccoCityList = () => {
     });
 }
 
-// 4.
+// 4. Singapore
 export const SingaporeCityList = () => {
     const contentElement = document.querySelector(".countryDetail__listCities")
     const cities = useSingaporeCity()
@@ -43,7 +43,7 @@ export const SingaporeCityList = () => {
     });
 }
 
-// 5.
+// 5. Switzerland
 export const SwitzerlandCityList = () => {
     const contentElement = document.querySelector(".countryDetail__listCities")
     const cities = useSwitzerlandCity()

@@ -5,7 +5,7 @@ import { useIcelandHOS, useJapanHOS, useMoroccoHOS, useSingaporeHOS, useSwitzerl
 
 //individual HOS list creator functions to send to each country's specific main.js file
 
-// 1.
+// 1. Japan
 export const JapanHOSList = () => {
     const contentElement = document.querySelector(".countryDetail__listHOS")
     const hoss = useJapanHOS()
@@ -14,8 +14,8 @@ export const JapanHOSList = () => {
         contentElement.innerHTML += HOS(hosItem)
     });
 }
-
-// 2.
+ 
+// 2. Iceland
 export const IcelandHOSList = () => {
     const contentElement = document.querySelector(".countryDetail__listHOS")
     const hoss = useIcelandHOS()
@@ -25,7 +25,7 @@ export const IcelandHOSList = () => {
     });
 }
 
-// 3.
+// 3. Morocco
 export const MoroccoHOSList = () => {
     const contentElement = document.querySelector(".countryDetail__listHOS")
     const hoss = useMoroccoHOS()
@@ -35,7 +35,7 @@ export const MoroccoHOSList = () => {
     });
 }
 
-// 4.
+// 4. Singapore
 export const SingaporeHOSList = () => {
     const contentElement = document.querySelector(".countryDetail__listHOS")
     const hoss = useSingaporeHOS()
@@ -45,7 +45,7 @@ export const SingaporeHOSList = () => {
     });
 }
 
-// 5.
+// 5. Switzerland
 export const SwitzerlandHOSList = () => {
     const contentElement = document.querySelector(".countryDetail__listHOS")
     const hoss = useSwitzerlandHOS()
