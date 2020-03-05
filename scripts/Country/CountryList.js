@@ -2,6 +2,7 @@
 import { useJapanCountry, useIcelandCountry, useMoroccoCountry, useSingaporeCountry, useSwitzerlandCountry } from "./CountryDataProvider.js";
 import Country from "./Country.js";
 
+//individual country creator functions to send to each country's specific main.js file
 
 export const JapanCountryList = () => {
   const contentElement = document.querySelector(".country");

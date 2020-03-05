@@ -3,6 +3,8 @@ import Landmark from "./Landmark.js";
 import { useJapanLandmarks, useIcelandLandmarks, useMoroccoLandmarks, useSingaporeLandmarks, useSwitzerlandLandmarks } from "../../CountryDataProvider.js";
 
 
+//individual HOS list creator functions to send to each country's specific main.js file
+
 // 1.
 export const JapanLandmarkList = () => {
     const contentElement = document.querySelector(".countryDetail__listLandmarks")

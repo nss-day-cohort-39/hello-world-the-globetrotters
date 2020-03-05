@@ -1,6 +1,8 @@
 import City from "./City.js";
 import { useJapanCity, useIcelandCity, useMoroccoCity, useSingaporeCity, useSwitzerlandCity } from "../../CountryDataProvider.js";
 
+//individual city list creator functions to send to each country's specific main.js file
+
 // 1.
 export const JapanCityList = () => {
     const contentElement = document.querySelector(".countryDetail__listCities")

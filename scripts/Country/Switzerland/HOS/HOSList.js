@@ -1,7 +1,9 @@
 
 import HOS from "./HOS.js";
 import { useIcelandHOS, useJapanHOS, useMoroccoHOS, useSingaporeHOS, useSwitzerlandHOS } from "../../CountryDataProvider.js";
-// import { useJapanHOS, useIcelandHOS, useMoroccoHOS, useSingaporeHOS, useSwitzerlandHOS } from "../../CountryDataProviderjs";
+
+
+//individual HOS list creator functions to send to each country's specific main.js file
 
 // 1.
 export const JapanHOSList = () => {

@@ -1,3 +1,5 @@
+// Array of country data
+
 const countryCollection = [
   {
     name: "Japan",
